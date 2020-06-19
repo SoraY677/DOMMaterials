@@ -5,6 +5,6 @@
 
 ## [見出し系/headline](./headline/)
 
-- **[noisy1](./headline/noisy1)**
+- **[noisy1](https://soray677.github.io/DOMMaterials/headline/)**
 近未来のような...オタクチックなような...
 左右からバーが交差した後に文字が表示される
