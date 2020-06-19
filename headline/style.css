@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  width:100vw;
+}
+
+.cw80{
+  width:80%;
+  margin:auto;
+}
+
+.cw40{
+  width:40%;
+  margin:auto;
+}
+
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe{
+  display: flex;
+  height:100%;
+  justify-content: center;
+  align-items: center;
+  border:1px solid #2e2e2e;
+}
