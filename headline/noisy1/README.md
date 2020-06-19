@@ -13,7 +13,7 @@
       <div class="bar"></div>
       <div class="bar"></div>
     </div>
-    <div class="main-text">hogehoeg</div>
+    <div class="main-text">sample-text</div>
   </div>
 </div>
 
