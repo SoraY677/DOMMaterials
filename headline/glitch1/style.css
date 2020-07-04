@@ -1,0 +1,54 @@
+.glitch1{
+  position: relative;
+}
+
+.glitch1 > span{
+  position: absolute;
+  top:0;
+  left:0;
+  font-size:2em;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: initial;
+}
+
+.glitch1 > span:nth-child(1){
+  clip: rect(0, 9999px, 0.5em, 0);
+  animation-name:glitch1-anim-left;
+}
+
+.glitch1 > span:nth-child(2){
+  clip:rect(0.5em, 9999px, 0.8em, 0);
+  animation-name: glitch1-anim-right ;
+}
+
+.glitch1 > span:nth-child(3){
+  clip:rect(0.8em, 9999px, 2em, 0);
+  animation-name: glitch1-anim-left ;
+}
+
+@keyframes glitch1-anim-left{
+  15%{
+    transform: translateX(0em);
+  }
+  20%{
+    transform: translateX(-0.5em);
+  }
+  25%{
+     transform: translateX(0em);
+  }
+}
+
+@keyframes glitch1-anim-right{
+
+  60%{
+    transform: translateX(0em);
+  }
+  65%{
+    transform: translateX(0.5em);
+  }
+  70%{
+     transform: translateX(0em);
+  }
+}
