@@ -19,11 +19,6 @@
 
 .blockout > .text-box{
   opacity:auto;
-  /* animation: 1s ease-in 0.7s fade-in 1; */
-}
-
-.blockout > .text-box::after{
-
 }
 
 @keyframes blockout-right{
@@ -38,14 +33,5 @@
   60%{
     left:100%;
     width:0%;
-  }
-}
-
-@keyframes fade-in{
-  0%{
-    opacity: 0;
-  }
-  100%{
-    opacity: 1;
   }
 }
